@@ -32,7 +32,7 @@ fieldElements['name'] = pos.gui.TextInput(2, 9, body.w-3)
 fieldElements['activity'].next = fieldElements['name']
 
 body:addElement(pos.gui.TextBox(1, 10, nil, nil, 'Date:'))
-fieldElements['date'] = pos.gui.TextInput(7, 10, body.w - 7)
+fieldElements['date'] = pos.gui.TextInput(7, 10, body.w - 6)
 fieldElements['name'].next = fieldElements['date']
 
 body:addElement(pos.gui.TextBox(1, 12, nil, nil, 'Valid Through:'))
