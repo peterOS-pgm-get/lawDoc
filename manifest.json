@@ -1,0 +1,12 @@
+{
+    "version": 0.1,
+    "files": [
+        "cmd.lua",
+        "gui.lua",
+        "types/C&D.lua",
+        "types/RoL.lua"
+    ],
+    "exec": "cmd.lua",
+    "cmpt": null,
+    "startup": null
+}
