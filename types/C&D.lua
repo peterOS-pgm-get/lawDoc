@@ -1,5 +1,26 @@
 -- Cease and Desist
 
+--[[
+    Notice to Cease and Desist
+    
+    Date: ' .. fieldElements['date'].text .. '\n'
+    
+    From:
+    [From]
+    
+    Dear: [Recipient]
+    
+    This notice is served upon [Reason]
+    ("Activity")
+    
+    __If you do not cease the aforementioned Activity a lawsuit will be commenced against you__
+    
+    You will not receive another warning letter. If you do not confirm in writing to us by [Date] that you will cease violating our Agreement a lawsuit will be commenced immediately
+
+    Sincerely,
+    [From]
+]]
+
 local body = unpack({ ... }) ---@type ScrollField
 
 local fieldElements = {} ---@type table<string, TextInput>

@@ -8,7 +8,7 @@ gui.window = pos.gui.Window('Law Doc')
 gui.window.exitOnHide = true
 pos.gui.addWindow(gui.window)
 
-local TYPES = { 'C&D', 'RoL' }
+local TYPES = { 'C&D', 'RoL', 'ItS' }
 
 gui.mo_new = pos.gui.MenuOption(1, 'New', TYPES, 8, function(index, option)
     gui.mo_new.visible = false

@@ -4,7 +4,8 @@
         "cmd.lua",
         "gui.lua",
         "types/C&D.lua",
-        "types/RoL.lua"
+        "types/RoL.lua",
+        "types/ItS.lua"
     ],
     "exec": "cmd.lua",
     "cmpt": null,

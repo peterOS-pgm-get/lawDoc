@@ -1,5 +1,22 @@
 -- Release of Liability
 
+--[[
+    Release of Liability
+
+    _Organization_ ("The Organization")
+    _Activity_ ("The Activity")
+
+    I _Name_ hereby assume all risks associated with The Activity.
+    I release The Organization from liability in regards to my participation in The Activity.
+
+    I hereby waive my right to seek compensation from The Organization for any injury or property damage resulting from The Activity.
+
+    __Signature__
+    Date: _Date_
+
+    Valid Through: _Valid_Through_
+]]
+
 local body = unpack({ ... }) ---@type ScrollField
 
 local fieldElements = {} ---@type table<string, TextInput>
@@ -40,22 +57,6 @@ fieldElements['valid'] = pos.gui.TextInput(2, 13, body.w - 3)
 fieldElements['date'].next = fieldElements['valid']
 
 local function export()
-    --[[
-        Release of Liability
-
-        _Organization_ ("The Organization")
-        _Activity_ ("The Activity")
-
-        I _Name_ hereby assume all risks associated with The Activity.
-        I release The Organization from liability in regards to my participation in The Activity.
-
-        I hereby waive my right to seek compensation from The Organization for any injury or property damage resulting from The Activity.
-
-        __Signature__
-        Date: _Date_
-
-        Valid Through: _Valid_Through_
-    ]]
     
     local out = 'Release of Liability\n'
     out = out .. '\n'
